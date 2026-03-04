@@ -1,0 +1,9 @@
+/**
+ * TULISKAN SEBUAH FUNGSI YANG MENERIMA BILANGAN N DAN DAN MENCETAK PENJUMLAHAN DARI 1 HINGGA N. CONTOHNYA, JIKA N ADALAH 5, MAKA FUNGSI AKAN MENCETAK 15 (DALAM HAL INI MENJUMLAHKAN 1 + 2 + 3 + 4 + 5).
+ */
+
+function sumNValues(n){
+    const sum = (n * (n + 1)) / 2;
+    console.log(sum);
+}
+sumNValues(100);
