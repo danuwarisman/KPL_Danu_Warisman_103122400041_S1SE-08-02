@@ -1,0 +1,51 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #f7f7f7;
+}
+
+.container-tengah {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ccc;
+}
+
+.kotak-input {
+    display: block;
+    resize: none;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Inconsolata', monospace;
+}
+
+p > span {
+    color: coral; /* atau juga bisa pakai kode hex-nya, #FF7F50 */
+    font-weight: bold;
+}
+
+button {
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+    padding: 5px 12px;
+}
+
+/* mode gelap */
+    body.tema-gelap {
+    background-color: #1a1a1a;
+}
+
+.tema-gelap .container-tengah {
+    background-color: #222;
+    color: white;
+}
+
+.tema-gelap #editor-kecil {
+    background-color: #2e3443;
+    color: white;
+}
+
+.tema-gelap button {
+    background-color: #29ddcc;
+    border: none;
+}
