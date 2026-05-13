@@ -1,0 +1,8 @@
+{
+  "name": "test-mtk-gampang",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "libr": "file:../mtk-gampang"
+  }
+}

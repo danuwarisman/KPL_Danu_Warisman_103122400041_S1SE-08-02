@@ -16,19 +16,43 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+
+# Environment variables (SENSITIVE DATA)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+.env.production
+.env.development
+.env.testing
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*.swn
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Logs
 *.log
+npm-debug.log
+yarn-debug.log
 
 # Temporary files
 *.tmp
-*.swp
-*.swo
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
